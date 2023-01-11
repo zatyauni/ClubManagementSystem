@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Club Member</title>
+</head>
+<h1 style="text-align:center">Welcome Back</h1><br>
+<img style="text-align:center"src="ez.png" alt="Star Club">
+</body>
+</html>

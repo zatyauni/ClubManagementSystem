@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<script type = "text/javascript">
+            function Redirect() {
+               window.location = "http://localhost:7882/assignment/home.html";
+            }
+		 	function Redirect2(){
+				window.location = "http://localhost:7882/assignment/about.html";
+			}
+			function Redirect3(){
+				window.location = "http://localhost:7882/assignment/registration.php";
+			}
+			function Redirect4(){
+				window.location = "http://localhost:7882/assignment/checkapplication.php";
+			}
+			function Redirect5(){
+				window.location = "http://localhost:7882/assignment/clubmemberlogin.html";
+			}
+			function Redirect6(){
+				window.location = "http://localhost:7882/assignment/AdminLogin.html";
+			}
+	</script>
+	<title>About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #c2f7fc;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c2f7fc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #a7f3fa;
+   color: black;
+   text-align: center;
+   font-size: 15px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <a onClick="Redirect();">Home</a>
+  <a onClick="Redirect2();">About</a>
+
+   <div class= "dropdown" style="float:left">  
+    <button class="dropbtn">Registration
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a onClick="Redirect3();">New Registration</a>
+      <a onClick="Redirect4();">Check Application</a>
+    </div>
+  </div>
+    
+    <div class= "dropdown" style="float:right">        
+     <button class="dropbtn">Login
+        <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+      <a onClick="Redirect5();">Club Member</a>
+      <a onClick="Redirect6();">Club Administrator</a>
+     </div>
+    </div>
+</div>
+
+<br><br><br>
+<h2 align="center">
+     About Us
+<br><br>
+Star Club Sytem is a web application that can be access by 
+guest, club member and club administrator. This system make
+easy for club register to register members online with virtually
+no paperwork. It also can be accessible from any computer, tablet
+or mobile devices.
+</h2>
+
+<br>
+
+<h2 align="center">
+     Contact Us
+<br><br>
+<img src="social.JPG" alt="Social" style="width:12%;">
+
+</h2>
+
+
+
+<div class="footer">
+  <p>Copyright (C) Star 2021</p>
+</div>
+
+</body>
+</html>

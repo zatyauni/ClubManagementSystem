@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type = "text/javascript">
+            function Redirect() {
+               window.location = "http://localhost:7882/assignment/home.html";
+            }
+		 	function Redirect2(){
+				window.location = "http://localhost:7882/assignment/about.html";
+			}
+			function Redirect3(){
+				window.location = "http://localhost:7882/assignment/edit%20.html";
+			}
+			function Redirect4(){
+				window.location = "http://localhost:7882/assignment/home.html";
+	</script>
+<title>Membership Application</title>
+<style>
+	body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c2f7fc;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+}
+
+
+h1{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;  
+	margin-top: 60px;
+} 
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 80%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: red;} /* Red*/
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	background-color: #c2f7fc;
+	color: black;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a onClick="Redirect();">Home</a></li>
+  <li><a onClick="Redirect2();">About</a></li>
+  <li style="float:right"><a  onClick="Redirect4();">Logout</a></li>
+  <li style="float:right"><a  onClick="Redirect3();">My Profile</a></li>  
+</ul>
+
+<h1>Membership Application</h1><br>  
+<center>
+<table>
+  <tr>
+    <th>Username</th>
+    <th>Date</th>
+    <th>Action</th>
+  </tr>
+  
+  
+  <tr>
+    <td style="text-align: center">lisaatira</td>
+    <td style="text-align: center">12-12-2021</td>
+    <td><center> <button class="button button1" onclick="alert('Success Approve Membership!')">Approve</button>
+<button class="button button2" onclick="alert('Are You Sure Want To Decline?')"
+>Decline</button></center></td>
+  </tr>
+ 
+ <tr>
+    <td style="text-align: center">fitrifahim</td>
+    <td style="text-align: center">14-12-2021</td>
+    <td><center> <button class="button button1" onclick="alert('Success Approve Membership!')">Approve</button>
+<button class="button button2" onclick="alert('Are You Sure Want To Decline?')"
+>Decline</button></center></td>
+  </tr>
+ 
+ <tr>
+    <td style="text-align: center">sandysingh</td>
+    <td style="text-align: center">15-12-2021</td>
+    <td><center> <button class="button button1" onclick="alert('Success Approve Membership!')">Approve</button>
+<button class="button button2" onclick="alert('Are You Sure Want To Decline?')"
+>Decline</button></center></td>
+  </tr>
+</table></center>
+
+<footer>
+	<p>Copyright (C) Star 2021<br></p>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Club Member Login</title>
+</head>
+<body>
+<h1 style="text-align:center;">Club Member Login</h1>
+<form style="text-align:center;">
+Email: <input type="email" id="email" name="email"><br>
+Password: <input type="password" id="pwd" name="pwd"><br><br>
+<p>Forgot Password</p>
+<input type="submit" value="Login">
+</form>
+
+
+</body>
+</html>
